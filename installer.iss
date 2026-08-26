@@ -5,17 +5,17 @@
 #define AppName "DOB NOW Trident Host"
 #define AppVer "1.0.0"
 #define AppExe "DOBNowTrident.exe"
-#define PortableExe "C:\Users\Sunny\Desktop\claude code\Portable\02 - dob-trident Portable.exe"
+#define PortableExe "..\Portable\02 - dob-trident Portable.exe"
 
 [Setup]
 AppId={{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}}
 AppName={#AppName}
 AppVersion={#AppVer}
-AppPublisher=Sunny
+AppPublisher=DOB NOW Trident Host
 DefaultDirName={autopf}\{#AppName}
 DisableProgramGroupPage=yes
 UninstallDisplayIcon={app}\{#AppExe}
-OutputDir=C:\Users\Sunny\Desktop\claude code\Executable
+OutputDir=..\Executable
 OutputBaseFilename=02 - dob-trident
 Compression=lzma2
 SolidCompression=yes
